@@ -7,7 +7,6 @@ const navConfig = {
   admin: [
     { text: 'Reservas', to: '/reservas' },
     { text: 'Usuários', to: "/usuarios" },
-    { text: 'Excursões', to: '/excursoes' },
     { text: 'Ônibus', to: '/onibus' }
   ],
   secretaria: [
