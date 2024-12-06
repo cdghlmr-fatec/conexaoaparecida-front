@@ -19,27 +19,27 @@ import ReservasEdit from "./pages/reservas-edit/reservas-edit.jsx";
 function Rotas() {
     return <BrowserRouter>
         <Routes>
-            <Route path="/conexaoaparecida-front/" element={<Login />} />
+            <Route path="/" element={<Login />} />
             {/* <Route path="/signup" element={<SignUp />} /> */}
-            <Route path="/conexaoaparecida-front/reservas" element={<Reservas />} />
-            <Route path="/conexaoaparecida-front/reservas/add" element={<ReservasAdd />} />
-            <Route path="/conexaoaparecida-front/reservas/edit/:id_reserva" element={<ReservasEdit />} />
-            <Route path="/conexaoaparecida-front/onibus" element={<Onibus />} />
-            <Route path="/conexaoaparecida-front/onibus/add" element={<OnibusAdd />} />
-            <Route path="/conexaoaparecida-front/onibus/edit/:id" element={<OnibusEdit />} />
-            {/* <Route path="/conexaoaparecida-front/coordenadores" element={<Coordenadores />} />
-            <Route path="/conexaoaparecida-front/coordenadores/add" element={<CoordenadoresAdd />} />
-            <Route path="/conexaoaparecida-front/coordenadores/edit/:id" element={<CoordenadoresAdd />} />
-            <Route path="/conexaoaparecida-front/excursoes" element={<Excursoes />} />
-            <Route path="/conexaoaparecida-front/excursoes/add" element={<ExcursoesAdd />} />
-            <Route path="/conexaoaparecida-front/excursoes/edit/:id" element={<ExcursoesAdd />} /> */}
-            <Route path="/conexaoaparecida-front/usuarios" element={<Usuarios />} />
-            <Route path="/conexaoaparecida-front/usuarios/add" element={<UsuariosAdd />} />
-            <Route path="/conexaoaparecida-front/usuarios/edit/:id" element={<UsuariosEdit />} />
-            {/* <Route path="/conexaoaparecida-front/passageiros" element={<Passageiros />} />
-            <Route path="/conexaoaparecida-front/assentos" element={<Assentos />} />
-            <Route path="/conexaoaparecida-front/assentos/add" element={<AssentosAdd />} />
-            <Route path="/conexaoaparecida-front/assentos/edit/:id" element={<AssentosAdd />} /> */}
+            <Route path="/reservas" element={<Reservas />} />
+            <Route path="/reservas/add" element={<ReservasAdd />} />
+            <Route path="/reservas/edit/:id_reserva" element={<ReservasEdit />} />
+            <Route path="/onibus" element={<Onibus />} />
+            <Route path="/onibus/add" element={<OnibusAdd />} />
+            <Route path="/onibus/edit/:id" element={<OnibusEdit />} />
+            {/* <Route path="/coordenadores" element={<Coordenadores />} />
+            <Route path="/coordenadores/add" element={<CoordenadoresAdd />} />
+            <Route path="/coordenadores/edit/:id" element={<CoordenadoresAdd />} />
+            <Route path="/excursoes" element={<Excursoes />} />
+            <Route path="/excursoes/add" element={<ExcursoesAdd />} />
+            <Route path="/excursoes/edit/:id" element={<ExcursoesAdd />} /> */}
+            <Route path="/usuarios" element={<Usuarios />} />
+            <Route path="/usuarios/add" element={<UsuariosAdd />} />
+            <Route path="/usuarios/edit/:id" element={<UsuariosEdit />} />
+            {/* <Route path="/passageiros" element={<Passageiros />} />
+            <Route path="/assentos" element={<Assentos />} />
+            <Route path="/assentos/add" element={<AssentosAdd />} />
+            <Route path="/assentos/edit/:id" element={<AssentosAdd />} /> */}
         </Routes>
     </BrowserRouter>
 }
